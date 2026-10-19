@@ -4,7 +4,7 @@ on:
   schedule:
     #  Every 5 minutes — works unlimited on PUBLIC repos
     #  On PRIVATE repos, change to */15 to stay within 2,000 free min/month
-    - cron: '*/5 * * * *'
+    - cron: '7,17,27,37,47,57 * * * *'
 
   # Adds a "Run workflow" button in GitHub UI for manual testing
   workflow_dispatch:
